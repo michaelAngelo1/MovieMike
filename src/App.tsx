@@ -8,11 +8,11 @@ import { useEffect, useState } from "react";
 //   type Container,
 //   type ISourceOptions,
 //   MoveDirection,
-//   OutMode,
+//   OutMode,z
 // } from "@tsparticles/engine";
 // import { loadSlim } from "@tsparticles/slim";
 
-const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=23dced82";
+const API_URL = "https://www.omdbapi.com/?i=tt3896198&apikey=23dced82";
 export default function App() {
 
   const [movies, setMovies] = useState([]);
