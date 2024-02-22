@@ -1,5 +1,5 @@
 import './App.css';
-import SearchIcon from "./search.svg";
+import SearchIcon from './search.svg';
 import MovieCard from "./MovieCard";
 
 import { useEffect, useState } from "react";
@@ -28,6 +28,7 @@ export default function App() {
   useEffect(() => {
     searchMovies("Avengers");
   }, [])
+
 
   // FOR PARTICLES JS
   // const [init, setInit] = useState(false);

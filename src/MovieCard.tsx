@@ -1,5 +1,11 @@
+interface Movie {
+  Year: string;
+  Poster: string;
+  Title: string;
+  Type: string;
+}
 
-export default function MovieCard({ movie }) {
+export default function MovieCard({ movie }: { movie: Movie }) {
   return (
     <div className="movie">
       <div>
