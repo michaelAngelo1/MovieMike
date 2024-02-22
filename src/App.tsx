@@ -1,16 +1,16 @@
 import './App.css';
-import SearchIcon from './search.svg';
+import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
 
-import { useEffect, useMemo, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import {
-  type Container,
-  type ISourceOptions,
-  MoveDirection,
-  OutMode,
-} from "@tsparticles/engine";
-import { loadSlim } from "@tsparticles/slim";
+import { useEffect, useState } from "react";
+// import Particles, { initParticlesEngine } from "@tsparticles/react";
+// import {
+//   type Container,
+//   type ISourceOptions,
+//   MoveDirection,
+//   OutMode,
+// } from "@tsparticles/engine";
+// import { loadSlim } from "@tsparticles/slim";
 
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=23dced82";
 export default function App() {
